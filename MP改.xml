@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-17 18:36:58 by Eclipse SUMO sumo Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net\hangzhou\hangzhou_4x4_gudang_18041610_1h.net.xml"/>
+        <route-files value="net\hangzhou\hangzhou_4x4_gudang_18041610_1h.rou.xml"/>
+    </input>
+
+    <output>
+        <statistic-output value="E:\学校\论文\模型\Compare_method\MaxPressure\exam_record\20231217-1836\static_file\0.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="57406"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="2983" inserted="2983" running="243" waiting="0"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="167"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <vehicleTripStatistics count="2740" routeLength="3249.98" speed="9.93" duration="331.17" waitingTime="2.33" timeLoss="35.56" departDelay="0.04" departDelayWaiting="-1.00" totalTravelTime="907407.00" totalDepartDelay="124.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
